@@ -1,0 +1,42 @@
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
+import {Description} from './Description.jsx'
+
+let Header = () => <div><h1>React Header</h1><hr/>></div>
+
+let Footer = ()=> <div><hr/><p>created on 12-Dec-2018 @accenture.com by arjun singh gurjar</p></div>
+
+
+class App extends Component {
+  render() {
+    
+     
+
+
+    return (
+      <div className="App">
+      <Header/>>
+         <h1>React Home Page </h1>
+         <h4>few terms used in react : </h4>
+          
+
+         <ol>
+
+           <li> Virtual DOM </li>
+           <li>Virtual DOM </li>
+           <li>Virtual DOM </li>
+           <li>Virtual DOM </li>
+           <li>Virtual DOM </li>
+
+         </ol>
+          <Description />
+
+          <Footer/>
+
+      </div>
+    );
+  }
+}
+
+export default App;
